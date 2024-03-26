@@ -81,7 +81,7 @@ public Hello helloApi(RequestParam("name") String name) {
 **`getter and setter`**
 
 property 접근 방식이라고도 함.
-
+`view` 이런 거 없이 웹 브라우저에 바로 꽂힘.
 ```java
 static class Hello {
  private String name;
