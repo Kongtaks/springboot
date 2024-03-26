@@ -4,9 +4,8 @@
 
 ### 2.1 정적 컨텐츠
 `static` 단어 그대로 움직이지 않고 형태가 정해진 파트!
-브라우저에 보여줄 html파일을 resources/static 폴더 안에 생성한다.
 
-`변수의 타입`으로 도 변수 선언 가능
+브라우저에 보여줄 html파일을 resources/static 폴더 안에 생성한다.
 
 ```java
 <!DOCTYPE HTML>
@@ -20,6 +19,7 @@
 </body>
 </html>
 ```
+
 **서버 포트가 8080이므로 localhost:8080/~~.html로 주소가 나온다.**
 
 추가적인 코딩x, 화면 그 자체만 볼 수 있다. (다른 언어에서 변수 없는 Print와 비슷)
@@ -32,7 +32,9 @@
 
 `View` -> User가 보는 화면 즉, 인터페이스! (Model의 data를 렌더링)
 
-`Controller`-> 화면인 `View` 와 `Model`을 이어주는 역할. UI에서 데이터의 이벤트들을 진행시켜 준다.
+`Controller`-> 화면인 `View` 와 `Model`을 이어주는 역할. 
+
+UI에서 데이터의 이벤트들을 진행시켜 준다.
 
 ```java
 @Controller
