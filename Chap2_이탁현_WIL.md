@@ -64,9 +64,38 @@ public class HelloController {
 
 ### 1.3 API
 
+데이터를 내리는 법! -> `html`로 내릴 지 아니면 `API` 방식으로 내릴지.
+`API` 
+```java
+@ResponseBody
+public Hello helloApi(RequestParam("name") String name) {
+ Hello hello = new Hello();
+ hello.setName(name);
+ return hello;
+}
+```
+`jason 형식으로 1:1 `mapping`되는 형태.
+
+**`getter and setter`**
+
+property 접근 방식이라고도 함.
+
+```java
+static class Hello {
+ private String name;
+ public String getName(){
+ return name;
+}
+ public void setName(String name){
+ this.name = name;
+
+```
+`return : hello templete model(name:spring)` 부분이
+`ResponseBody return: hello(name:spring)`로 바뀐다고 생각하면 편함.
+
+![spring2](https://github.com/Kongtaks/springboot/assets/144776756/a1768bf7-10b9-4438-b2e4-2f850f39ce31)
 
 
-    
 
 
 # 소감
