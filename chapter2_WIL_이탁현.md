@@ -28,7 +28,7 @@
 
 `MVC` → `Model`+`View`+`Controller`
 
-`Model -> 말 그대로 앱이나 웹의 데이터를 의미 한다.
+`Model` -> 말 그대로 앱이나 웹의 데이터를 의미 한다.
 
 `View` -> User가 보는 화면 즉, 인터페이스! (Model의 data를 렌더링)
 
