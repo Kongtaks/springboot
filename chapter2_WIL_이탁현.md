@@ -51,7 +51,7 @@ public class HelloController {
 		<p th:text="'hello' + ${name}">hello!</p>
 	</body>
 </html>
-```java
+```
 
 `@GetMapping("hello-name")` 은 `GET`방식으로 hello-name으로 호출함
 
