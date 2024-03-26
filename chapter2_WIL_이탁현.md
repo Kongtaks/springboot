@@ -55,7 +55,7 @@ public class HelloController {
 
 `@GetMapping("hello-name")` 은 `GET`방식으로 hello-name으로 호출함
 
-```http://localhost:8080/hello-name```
+`http://localhost:8080/hello-name`
 
 `@RequestParam(value="",required="")`은 는 변수를 name이라는 key로 String 데이터를 받겠다 라는 의미
 
