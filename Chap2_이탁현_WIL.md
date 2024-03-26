@@ -65,7 +65,8 @@ public class HelloController {
 ### 1.3 API
 
 데이터를 내리는 법! -> `html`로 내릴 지 아니면 `API` 방식으로 내릴지.
-`API` 
+
+
 ```java
 @ResponseBody
 public Hello helloApi(RequestParam("name") String name) {
@@ -74,7 +75,8 @@ public Hello helloApi(RequestParam("name") String name) {
  return hello;
 }
 ```
-`jason 형식으로 1:1 `mapping`되는 형태.
+
+`jason 형식으로 1:1 `mapping되는 형태.`
 
 **`getter and setter`**
 
